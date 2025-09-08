@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+}
+.logo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: max-content;
+    padding: 10px;
+}
+.navicons{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: max-content;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: small;
+}
+.navicons:hover{
+    background-color: #3e3e3e;
+    cursor: pointer;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+.logo_page{
+    height: max-content;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.Apple_Event{
+    height: max-content;
+    width: 100%;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 700;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background: linear-gradient(150deg, #0af4f4, #2b118f);
+    -webkit-background-clip: text;   /* for Safari/Chrome */
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin: 10px;
+}
+.Time {
+    height: max-content;
+    width: 100%;
+    text-align: center;
+    color: White;
+    font-size: larger;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin:10px;
+}
+.Calender{
+    height: max-content;
+    padding:14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium ;
+    color: black;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    border-radius:30px;
+    border: none;
+    margin:10px;
+    margin-bottom: 45px;
+    cursor: pointer;
+}
+.iPhone{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.iPhone img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+}
+.iPhone_Text{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80px;
+}
+.iTitld{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 610;
+}
+.i16{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color:black;
+    margin-top : 12px;
+    font-weight: 420;
+}
+.learn{
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    color: White;
+    background-color: royalblue;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+
+}
+.buts{
+    height: max-content;
+    width: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.blue_buttons{
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    color: royalblue;
+    background-color: transparent;
+    border: 1px solid royalblue;
+    border-radius: 25px;
+    padding: 8px 20px 8px 20px;
+    cursor: pointer;
+}
+.Shop_iphone:hover{
+    background-color: royalblue;
+    color: white;
+}
+.AI{
+    margin-top: 30px;
+    text-align: center;
+    background: linear-gradient(150deg, #0e70f3, #fa2fb1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    height: max-content;
+    font-size: x-large;
+
+}
